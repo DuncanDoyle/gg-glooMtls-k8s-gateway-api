@@ -1,0 +1,7 @@
+apiVersion: gateway.gloo.solo.io/v1alpha1
+kind: GatewayParameters
+metadata:
+  name: self-managed
+  namespace: gloo-system
+spec:
+  selfManaged: {}
